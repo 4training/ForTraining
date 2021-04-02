@@ -165,6 +165,7 @@ class ForTrainingTemplate extends BaseTemplate {
 					<div class="usermessage"><?php $this->html( 'newtalk' ) ?></div>
 				<?php
 				}
+				/* #custom4training disable this
 				?>
 				<div id="jump-to-nav" class="mw-jump">
 					<?php $this->msg( 'jumpto' ) ?>
@@ -174,6 +175,7 @@ class ForTrainingTemplate extends BaseTemplate {
 					<a href="#p-search"><?php $this->msg( 'jumptosearch' ) ?></a>
 				</div>
 				<?php
+				*/
 				$this->html( 'bodycontent' );
 
 				if ( $this->data['printfooter'] ) {
