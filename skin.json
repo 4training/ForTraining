@@ -39,8 +39,7 @@
 			],
 			"position": "top",
 			"dependencies": [
-				"jquery.throttle-debounce",
-				"jquery.tabIndex"
+				"jquery.throttle-debounce"
 			]
 		}
 	},

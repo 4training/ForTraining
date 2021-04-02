@@ -8,7 +8,7 @@ jQuery( function ( $ ) {
 	/**
 	 * Focus search input at the very end
 	 */
-	$( '#searchInput' ).attr( 'tabindex', $( document ).lastTabIndex() + 1 );
+	/*$( '#searchInput' ).attr( 'tabindex', $( document ).lastTabIndex() + 1 );*/
 
 	/**
 	 * Dropdown menu accessibility
