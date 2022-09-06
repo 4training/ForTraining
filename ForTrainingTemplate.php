@@ -112,7 +112,7 @@ class ForTrainingTemplate extends BaseTemplate {
 					<a href="/Special:MyLanguage/Essentials"<?php if ($wgCustomSidebarCurrent === 'sidebar-essentials') echo ' class="active"'?>>
 						<?php echo wfMessage('headnav-essentials')->text(); ?></a><a href="/Special:MyLanguage/More"<?php if ($wgCustomSidebarCurrent === 'sidebar-more') echo ' class="active"'?>>
 						<?php echo wfMessage('headnav-more')->text(); ?></a><a href="/Special:MyLanguage/Languages" <?php if ($wgCustomSidebarCurrent === 'sidebar-languages') echo ' class="active"'?>>
-						<?php echo wfMessage('headnav-languages')->text(); ?></a><a href="/Special:MyLanguage/FAQ"><?php echo wfMessage('headnav-faq')->text(); ?></a><a style="margin-right: 10px" href="https://www.4training.net/Special:Contact"><?php echo wfMessage('contactpage-title')->text(); ?></a>
+						<?php echo wfMessage('headnav-languages')->text(); ?></a><a href="/Special:MyLanguage/FAQ"><?php echo wfMessage('headnav-faq')->text(); ?></a><a style="margin-right: 10px" href="https://www.4training.net/Special:MyLanguage/Contact"><?php echo wfMessage('contactpage-title')->text(); ?></a>
 					<?php $this->renderNavigation( array('SEARCH') ); ?>
 				</div>
 			</div>
